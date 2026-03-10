@@ -264,3 +264,6 @@ on Employees.DepartmentId = Department.Id
 
 --arvutame kõikide palgad kokku
 select sum(cast(Salary as int)) as TotalSum from Employees
+
+--miinimum palga saaja
+select min(cast(Salary as int)) as TotalSum from Employees
